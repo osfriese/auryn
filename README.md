@@ -13,7 +13,7 @@ p(i,j) = exp(-((xi-xj)^2 + (yi-yj)^2)/sigma) or p(orientation) if similar.
 
 This image demonstrates connections of only one from 5110 neurons in an 64 times 64 grating with four pinwheel structures.
 
-![GeoConnectiono](https://github.com/osfriese/auryn/GeoConnection.jpg "GeoConnectiono")
+![GeoConnectiono](https://github.com/osfriese/auryn/blob/master/GeoConnection.jpg "GeoConnection")
 
 I hope I can give further documentation soon.
 All new functions have been tested.
