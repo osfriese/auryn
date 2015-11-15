@@ -61,6 +61,8 @@
 #include "DuplexConnection.h"
 #include "TripletDecayConnection.h"
 #include "IdentityConnection.h"
+#include "GeoConnection.h"
+
 
 // Spiking and Neuron group definitions
 #include "IF2Group.h"
@@ -80,6 +82,7 @@
 #include "AuditoryBeepGroup.h"
 #include "StimulusGroup.h"
 #include "FileInputGroup.h"
+#include "AdExGroup.h"
 
 
 // Checker definitions

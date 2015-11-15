@@ -1,3 +1,23 @@
+This is mostly the original auryn package. For informations see Auryn.
+
+GeoConnection
+-----------
+I added a new connection type, the GeoConnection, wich is a simpel model of the visual cortex. It connects neurons depending on their position, their distance to each other depending and their orientation. If you speak german please see documentation_de.pdf for a detailed explanation. Maybe there will be an english version soon. 
+
+The basic priciple is:
+- most connections are local
+- smaler distances means higher probability for a connection
+- similar orientation  means higher probability for a connection
+
+p(i,j) = exp(-((xi-xj)^2 + (yi-yj)^2)/sigma) or p(orientation) if similar.
+
+This image demonstrates connections of only one from 5110 neurons in an 64 times 64 grating with four pinwheel structures.
+
+![GeoConnectiono](https://github.com/osfriese/auryn/GeoConnection.jpg "GeoConnectiono")
+
+I hope I can give further documentation soon.
+All new functions have been tested.
+
 Auryn 
 =====
 
